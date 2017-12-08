@@ -2,6 +2,7 @@
 body {
   background-color: #C1D3E8;
   background: url(https://images.pexels.com/photos/416346/pexels-photo-416346.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) center/cover no-repeat;
+  /* background: url(../images/bgcolor.jpg) center/cover no-repeat; */
   font-family: "Rock Salt", cursive;
   margin: 0 auto;
   padding: 0 10vw;
