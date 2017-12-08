@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed|Rock+Salt");
+body {
+  background-color: #C1D3E8;
+  background: url(https://images.pexels.com/photos/416346/pexels-photo-416346.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) center/cover no-repeat;
+  font-family: "Rock Salt", cursive;
+  margin: 0 auto;
+  padding: 0 10vw;
+  text-shadow: 3px 3px 5px #FFF; }
+
+#board h1 {
+  margin: 0; }
+#board .create-column {
+  margin: 10px calc(50% - 50px); }
+#board .column {
+  width: 33%;
+  float: left; }
+
+h1, h2 {
+  text-align: center; }
+
+button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: calc(50% - 50px); }
+
+.btn-delete {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  color: red;
+  font-weight: bold;
+  background-color: #C1D3E8; }
+
+ul {
+  display: inline;
+  list-style: none; }
+  ul .btn-delete {
+    right: 5px; }
+  ul li {
+    position: relative;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

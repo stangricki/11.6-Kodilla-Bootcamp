@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Rock+Salt');
+// font-family: 'Rock Salt', cursive;
+// 
+$background-color:#C1D3E8;
+$button-color: #27ae60;
+
+
+$main-font: 'Rock Salt', cursive;
+$button-font: 'Roboto Condensed', sans-serif;
+
+// * {
+// 	outline: 1px solid red;
+// }
+
+body {
+	background-color: $background-color;
+	background: url(https://images.pexels.com/photos/416346/pexels-photo-416346.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) center/cover no-repeat;
+	font-family: $main-font;
+	margin: 0 auto;
+	padding: 0 10vw;
+	text-shadow: 3px 3px 5px #FFF;
+}
+
+#board {
+	h1 {
+		margin: 0
+	}
+	.create-column {
+		margin: 10px calc(50% - 50px);
+	}
+	.column {
+		width: 33%;
+		float: left;
+		.column-title{}
+
+	}
+}
+
+h1, h2 {
+	text-align: center
+}
+
+button {
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		width: 100px;
+		height: 40px;
+		background-color: $button-color;
+		border: none;
+		border-radius: 5px; 
+		font-family: $button-font;
+		margin-left: calc(50% - 50px);
+}
+
+.btn-delete {
+		display: inline-block;
+		position: absolute;
+		text-align: center;
+		margin: 5px;
+		width: 25px;
+		height: 25px;
+		color: red;
+		font-weight: bold;
+		background-color: $background-color;
+}
+
+ul {
+	display:inline;
+	list-style: none;
+
+	.btn-delete {
+		right: 5px;	
+	}
+	li {
+		position:relative;
+		text-align: center;
+	}
+}
